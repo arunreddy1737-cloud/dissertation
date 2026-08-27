@@ -1,5 +1,9 @@
 # Smart Pothole Detection Framework Using Deep Learning Techniques
 
+Dissertation: LEEDS BECKETT UNIVERSITY
+By: Arun Bethi (77633057)
+
+
 A deep learning framework for automatically detecting and localizing potholes in road images. The project trains and compares three object detection architectures — **YOLOv8**, **Faster R-CNN** (ResNet50-FPN backbone), and **SSD MobileNet** — on an annotated pothole dataset, covering the full pipeline from raw data to trained, evaluated models.
 
 ## Overview
@@ -74,14 +78,6 @@ Results are visualized through comparative bar charts, radar charts, precision-r
 - **Matplotlib** — EDA and results visualization
 - **tqdm** — progress tracking
 
-## Project Structure
-
-```
-pothole_dataset/         # Raw train/val/test images + Pascal VOC XML annotations
-pothole_preprocessed/    # Resized, CLAHE-enhanced, normalized images
-pothole_yolo/            # YOLO-format images, labels, and dataset YAML config
-runs/yolo/                # YOLOv8 training runs and weights
-```
 
 ## Getting Started
 
